@@ -1,0 +1,311 @@
+# Student Information System Documentation
+
+## 1. Project Overview
+
+### Project Title
+
+Student Information System
+
+### Objective
+
+The Student Information System is a Java-based console application developed to manage student records efficiently. The project demonstrates the use of Object-Oriented Programming (OOP), ArrayList collections, file handling, input validation, exception handling, and menu-driven user interaction.
+
+The system allows users to:
+
+* Add new student records
+* View all student records
+* Search students by ID or name
+* Update student information
+* Delete student records
+* Save and load data from a file
+
+This project was developed as a practical exercise to strengthen Java programming skills and understand real-world data management applications.
+
+---
+
+## 2. Technologies Used
+
+* Java
+* JDK 8+
+* ArrayList
+* File Handling
+* Exception Handling
+* Scanner Class
+* OOP Concepts
+
+---
+
+## 3. Setup and Installation Instructions
+
+### Prerequisites
+
+* Java Development Kit (JDK 8 or above)
+* VS Code, IntelliJ IDEA, Eclipse, or any Java IDE
+
+### Project Structure
+
+StudentInformationSystem/
+
+├── src/
+
+│ ├── Student.java
+
+│ ├── StudentManager.java
+
+│ ├── ValidationUtils.java
+
+│ ├── FileHandler.java
+
+│ └── StudentInformationSystem.java
+
+├── docs/
+
+├── test_data/
+
+└── README.md
+
+### Compilation
+
+Open terminal inside the source folder and run:
+
+javac *.java
+
+### Execution
+
+java StudentInformationSystem
+
+### Data Storage
+
+Student records are automatically stored inside:
+
+students.txt
+
+and loaded whenever the application starts.
+
+---
+
+## 4. Code Structure Explanation
+
+### Student.java
+
+Purpose:
+Represents a student object.
+
+Attributes:
+
+* studentId
+* name
+* age
+* grade
+* contact
+
+Responsibilities:
+
+* Store student information
+* Provide getters and setters
+* Display student details
+* Convert object into file storage format
+
+---
+
+### StudentManager.java
+
+Purpose:
+Handles all business logic.
+
+Responsibilities:
+
+* Add student
+* View all students
+* Search by ID
+* Search by name
+* Update records
+* Delete records
+* Manage ArrayList<Student>
+
+---
+
+### ValidationUtils.java
+
+Purpose:
+Validates user input.
+
+Responsibilities:
+
+* Validate age
+* Validate grade
+* Validate student ID
+* Validate name
+* Validate contact information
+
+---
+
+### FileHandler.java
+
+Purpose:
+Manages file operations.
+
+Responsibilities:
+
+* Save student data to file
+* Load student data from file
+* Handle file-related exceptions
+
+---
+
+### StudentInformationSystem.java
+
+Purpose:
+Main application entry point.
+
+Responsibilities:
+
+* Display menu
+* Handle user input
+* Connect all classes together
+* Execute CRUD operations
+
+---
+
+## 5. Technical Requirements Implementation
+
+### Requirement 1: Student Class
+
+Implemented using Student.java.
+
+Included attributes:
+
+* Name
+* Age
+* Grade
+* Student ID
+* Contact Information
+
+Status: Completed
+
+---
+
+### Requirement 2: Data Validation
+
+Implemented in ValidationUtils.java.
+
+Validation Rules:
+
+* Age must be greater than 0
+* Grade must be between 0 and 100
+* Student ID cannot be empty
+* Name cannot be empty
+* Contact cannot be empty
+
+Status: Completed
+
+---
+
+### Requirement 3: Menu-Driven Interface
+
+Implemented using Scanner in StudentInformationSystem.java.
+
+Menu Options:
+
+1. Add Student
+2. View Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Save Data
+7. Exit
+
+Status: Completed
+
+---
+
+### Requirement 4: Add, View, Update, Delete
+
+Implemented inside StudentManager.java.
+
+Features:
+
+* Add Student
+* View Student Records
+* Update Student Information
+* Delete Student Records
+
+Status: Completed
+
+---
+
+### Requirement 5: Search Functionality
+
+Implemented in StudentManager.java.
+
+Search Options:
+
+* Search by Student ID
+* Search by Student Name
+
+Status: Completed
+
+---
+
+### Requirement 6: Formatted Output
+
+Implemented using printf() formatting.
+
+Example:
+
+ID NAME AGE GRADE CONTACT
+
+S001 John Doe 20 85.50 [john@gmail.com](mailto:john@gmail.com)
+
+Status: Completed
+
+---
+
+### Requirement 7: Error Handling
+
+Implemented using:
+
+* try-catch blocks
+* Input validation checks
+* Number format validation
+
+Status: Completed
+
+---
+
+### Requirement 8: Data Persistence
+
+Implemented using:
+
+* FileWriter
+* FileReader
+* BufferedWriter
+* BufferedReader
+
+Student data is automatically saved and loaded.
+
+Status: Completed
+
+---
+
+
+## 6. Sample Test Cases
+
+| Test Case      | Input        | Expected Output      |
+| -------------- | ------------ | -------------------- |
+| Add Student    | Valid Data   | Student Added        |
+| Add Student    | Duplicate ID | Error Message        |
+| Search Student | Existing ID  | Student Found        |
+| Search Student | Invalid ID   | Student Not Found    |
+| Update Student | Existing ID  | Updated Successfully |
+| Delete Student | Existing ID  | Deleted Successfully |
+| Invalid Age    | -5           | Validation Error     |
+| Invalid Grade  | 120          | Validation Error     |
+
+---
+
+## 7. Conclusion
+
+The Student Information System successfully fulfills all project requirements. The application demonstrates Java programming fundamentals, object-oriented design principles, collection management, file handling, validation techniques, and user interaction through a console-based interface.
+
+This project serves as a practical example of a real-world student management application and strengthens foundational Java development skills.
