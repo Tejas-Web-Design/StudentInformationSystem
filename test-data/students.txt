@@ -1,0 +1,5 @@
+S001,John Doe,20,85.5,john@gmail.com
+S002,Jane Smith,21,92.0,jane@gmail.com
+S003,Bob Wilson,19,78.5,bob@gmail.com
+S004,Alice Brown,22,88.0,alice@gmail.com
+S005,David Clark,18,91.5,david@gmail.com
