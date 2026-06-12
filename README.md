@@ -1,11 +1,11 @@
-# Student Information System
+# 👩‍💻 Student Information System
 
-## Project Overview
+##📌  Project Overview
 
 The Student Information System is a Java console-based application designed to manage student records efficiently. It allows users to add, view, search, update, and delete student information with data validation and file persistence.
 
 -------------------------
-## Features
+## ✨ Features
 
 - Add Student Records
 - View All Students
@@ -18,7 +18,7 @@ The Student Information System is a Java console-based application designed to m
 - Menu-Driven Interface
 
 ------------------------------------------
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Java
 - OOP Concepts
@@ -57,7 +57,7 @@ java StudentInformationSystem
 S001,John Doe,20,85.5,john@gmail.com
 
 S002,Jane Smith,21,92.0,jane@gmail.com
---------------------------------------------------
+
 
 ## Learning Outcomes
 
@@ -69,7 +69,7 @@ S002,Jane Smith,21,92.0,jane@gmail.com
 - Console Application Development
 
 ---------------------------------------------------
-##  Screenshots of Working Application
+## 📸 Screenshots of Working Application
 
 Screenshot 1 – Main Menu
 Shows the menu-driven interface.
@@ -103,6 +103,14 @@ Shows successful deletion of a student record.
 Screenshot 7 – Data Saved
 Shows successful file storage operation.
 <img width="1162" height="587" alt="Screenshot 2026-06-12 194532" src="https://github.com/user-attachments/assets/6ce71b36-6b7b-4067-b156-6dd198510dd3" />
+
+-----------------------------------
+
+👩‍💻 Author
+
+Tejasri Konidena
+
+# Java Intern -------@The Developers Arena
 
 
 
